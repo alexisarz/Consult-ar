@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Consult-ar Clon</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <h1 class="logo">+consult-ar</h1>
+            </div>
+            <ul class="menu-list">
+                <li onclick="handleShow()" id="institucional">INSTITUCIONAL</li>
+                <li>PRODUCTOS</li>
+                <li>PARTNERS</li>
+                <li>CLIENTES</li>
+                <li>BLOG</li>
+                <li><strong>HELP CENTER</strong></li>
+                
+                    <ul class="social-list">
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-linkedin"></i></li>
+                        <li><i class="fab fa-youtube"></i></li>
+                        <li><i class="fas fa-envelope"></i></li>
+                    </ul>
+                
+            </ul>
+        </nav>
+        <div id="hidden-menu" class="hidden-menu">
+            <ul>
+                <li>SOBRE NOSOTROS</li>
+                <li>SERVICIO</li>
+                <li>GESTION DE CALIDAD</li>
+                <li>TOMANDO ACCION</li>
+                <li>CONTACTO</li>
+            </ul>
+        </div>
+        <div class="banner-container">
+            <img class="banner" src="https://consult-ar.info/images/slideHome03.jpg" alt="banner-pic">
+            <div class="banner-text">
+                <h1 >Empresa de desarrollo de software
+                    especializada en la industria turistica
+                    (soluciones B2B & B2C)</h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="about">
+            <h1>Brindamos soluciones integrales al sector</h1>
+            <p>Somos referentes en desarrollo, soluciones web y 
+               marketing electrónico debido a la calidad de nuestros productos y a 
+               la constante consultoría brindada a nuestros clientes.</p>
+        </div>
+        <hr>
+        <div class="about">
+            <h1>Nuestros Productos</h1>
+            <p>Cuidadosamente creados para el mercado B2B y B2C, cada uno de nuestros productos está orientado a brindar una herramienta fundamental para potenciar el canal online de tu agencia de viajes.</p>
+        </div>
+
+        
+        <div class="product-list">
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_air.png" alt="mkte-prod">
+            </div>
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_car.png" alt="mkte-prod">
+            </div>
+            <div class="prox-prod">
+                <img  src="	https://consult-ar.info/images/icon/icono_booking.png" alt="mkte-prod">
+                <div class="prox">Proximamente</div>
+                
+            </div>
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_spider-catalogo.png" alt="mkte-prod">
+            </div>
+            <div>
+                <img src="https://consult-ar.info/images/icon/icono_spider-online.png" alt="mkte-prod">
+            </div>
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_tours.png" alt="mkte-prod">
+            </div>
+            <div class="prox-prod">
+                <img src="	https://consult-ar.info/images/icon/icono_cruises.png" alt="mkte-prod">
+                <div class="prox">Proximamente</div>
+            </div>
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_transfers.png" alt="mkte-prod">
+            </div>
+            <div>
+                <img src="https://consult-ar.info/images/icon/icono_activities.png" alt="mkte-prod">
+            </div>
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_assistance.png" alt="mkte-prod">
+            </div>
+            <div class="prox-prod">
+                <img src="	https://consult-ar.info/images/icon/icono_allotment.png" alt="mkte-prod">
+                <div class="prox">Proximamente</div>
+            </div>
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_mail.png" alt="mkte-prod">
+            </div>
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_gateways.png" alt="mkte-prod">
+            </div>
+            <div class="prox-prod">
+                <img src="	https://consult-ar.info/images/icon/icono_payments.png" alt="mkte-prod">
+                <div class="prox">Proximamente</div>
+            </div>
+            <div>
+                <img src="	https://consult-ar.info/images/icon/icono_alliance.png" alt="mkte-prod">
+            </div>
+            <div class="prox-prod">
+                <img src="https://consult-ar.info/images/icon/icono_budget.png" alt="mkte-prod">
+                <div class="prox">Proximamente</div>
+            </div>
+        </div>
+        <div class="why-container">
+            <div class="about">
+                <h1>¿Por qué elegirnos?</h1>
+                <div class="why-grid">
+                    <div class="why-card">
+                        <div class="why-card-head">
+                            <img src="	https://consult-ar.info/images/porque_icon_1.png" alt="why-png">
+                            <div>
+                                <p>01</p>
+                                <h2>Experiencia</h2>
+                            </div>
+                        </div>
+                        <p>
+                            Todos los miembros de nuestro equipo poseen amplia experiencia en la sinergia “Tecnología + Turismo”. Esto se conjuga además, en los más de 15 años de historia de Consult-ar, conformando una sólida trayectoria de trabajo.
+                        </p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card-head">
+                            <img src="https://consult-ar.info/images/porque_icon_2.png" alt="why-png">
+                            <div>
+                                <p>02</p>
+                                <h2>Innovación</h2>
+                            </div>
+                        </div>
+                        <p>
+                            Estamos atentos a las nuevas tecnologías que van surgiendo en el mercado para aplicar lo mejor a nuestros desarrollos. Además buscamos siempre estar un paso antes de las necesidades de nuestros clientes para brindar soluciones efectivas.
+                        </p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card-head">
+                            <img src="https://consult-ar.info/images/porque_icon_3.png" alt="why-png">
+                            <div>
+                                <p>03</p>
+                                <h2>Dedicación</h2>
+                            </div>
+                        </div>
+                        <p>
+                            Es uno de nuestros atributos fundamentales. Nos encontramos siempre abocados a los desafíos diarios con gran empeño y compromiso, orientados 100% a nuestros clientes y sobre todo movilizados por la misma pasión: el turismo.
+                        </p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card-head">
+                            <img src="	https://consult-ar.info/images/porque_icon_1.png" alt="why-png">
+                            <div>
+                                <p>04</p>
+                                <h2>Conocimiento</h2>
+                            </div>
+                        </div>
+                        <p>
+                            Años de trabajo en distintos sectores del ambiente turístico, hacen de Consult-ar un crisol de experiencias. Esto se traduce en un amplio conocimiento del mercado turístico: sabemos lo que nuestros clientes necesitan y, sobre todo, como satisfacerlos.
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="footer-social">
+            <ul>
+                <li><i class="fab fa-facebook-square"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+                <li><i class="fas fa-envelope"></i></li> 
+            </ul>
+        </div>
+        <div class="logo-container">
+            <h1 class="logo">+consult-ar</h1>
+        </div>
+        <div class="footer-list-cont">
+            <ul class="contact">
+                <li>Felipe Vallese 639 - Of.3</li>
+                <li>info@consult-ar.info</li>
+                <li><strong>+54 11 5199 0598</strong></li>
+            </ul>
+            <ul>
+                <h3>Institucional</h3>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+            <ul>
+                <h3>Sofware Turistico</h3>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+            <ul>
+                <h3>Legales</h3>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+            <ul>
+                <h3>Trabaja con nosotros</h3>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+        </div>
+        <div class="brands">
+            <img src="https://consult-ar.info/images/logo_pci.png" alt="brand">
+            <img src="https://consult-ar.info/images/logo_pdp.png" alt="brand">
+            <img src="https://consult-ar.info/images/logo_mp.png" alt="brand">
+            <img src="https://consult-ar.info/images/logo_amadeus.png" alt="brand">
+        </div>
+        <div class="copyright">
+            <p>Copyright 2020 | Consult-ar Marketing + Diseño SRL | Todos los derechos reservados. | Hecho el depósito que prevé la Ley 11.723</p>
+        </div>
+    </footer>
+
+
+<script>
+    function handleShow(){
+        var menu = document.getElementById("hidden-menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        }     
+        
+        else {
+            menu.style.display = "block";
+        }
+    }
+</script>    
+</body>
+</html>

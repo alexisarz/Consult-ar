@@ -1,0 +1,293 @@
+:root {
+    --bluewhite: #00aaff; 
+    --grey:#b9c1bd42 ;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 15px 50px;
+    justify-content: space-between;
+    color: white;
+    background: var(--bluewhite);
+    border-bottom: 5px solid #b9c1bdbb;
+    position:sticky;
+    top:0;
+    z-index: 100;
+}
+
+.logo{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-right: 10px;
+    color: white;
+}
+
+.menu-list{
+    display:flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 13px;
+    font-size: small;
+}
+
+.menu-list li{
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .3s linear;
+    padding: 0px;
+    margin:0px;
+    
+    
+}
+
+.menu-list li:hover{
+    border-bottom: 1px solid white;
+    
+}
+
+
+
+.social-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    vertical-align: sub;
+}
+
+.hidden-menu{
+    display:none;
+    position:absolute;
+    z-index: 50;
+    background:white;
+    padding:20px;
+    border-radius: 5px;
+    right:47%;
+    font-size: 15px;
+    
+}
+
+.hidden-menu ul{
+    list-style-type: none;
+    
+}
+
+.hidden-menu ul>li{
+    margin-bottom: 10px;
+}
+
+/* BANNER */
+
+.banner-container {
+    display:flex;
+}
+
+.banner{
+    position: relative;
+    height: 550px;
+    object-fit: cover;
+    width: 100%;
+    
+    
+}
+
+
+
+.banner-text{
+    position:absolute;
+    bottom: 200px;
+    padding: 30px;
+    border-radius: 20px;
+    left: 40px;
+    width: 45%;
+    color: white;
+    background: #00aaffc2;
+    
+   
+    
+}
+
+
+/* SECTION */
+
+.about{
+    
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+
+.about h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+
+
+.product-list{
+    width:75%;
+    margin: auto;
+    display:flex;
+    flex-wrap:wrap;
+    
+    
+    
+}
+
+.product-list div{
+    margin: 0px 3px;
+    cursor: pointer;
+    transition: .5s;
+    
+    
+}
+
+.product-list div:hover{
+    transform: translateY(-7px);
+    opacity: .8;
+}
+
+
+.prox{
+    position:absolute;
+    bottom:5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    transition: .2s;
+    opacity: 0;
+}
+
+.prox-prod:hover .prox{
+    opacity: 1;
+}
+
+
+/* WHY CHOISE GRID */
+
+.why-container{
+    background: var(--grey);
+    padding: 10px;
+    margin: 50px 0px 0px;
+    
+}
+
+.why-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: start;
+    margin-top: 50px;
+    
+}
+
+.why-card p{
+    font-size: large;
+}
+
+.why-card-head{
+    display:flex;
+    gap: 10px;
+    
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background: var(--bluewhite);
+    padding:60px;
+}
+
+.footer-social ul{
+    list-style-type: none;
+    display:flex;
+    width:40%;
+    margin:auto;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.footer-social ul>li{
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.footer-social ul>li:hover{
+    transform:scale(1.2)
+}
+
+.footer-list-cont{
+    display:flex;
+    justify-content:space-between;
+    width: 90%;
+    margin:auto;
+    margin-top: 50px;
+    font-size: 20px; 
+    
+    
+
+}
+
+.footer-list-cont ul{
+    list-style-type: none;
+    text-align:start;
+}
+
+.footer-list-cont ul{
+    color: white;
+    font-size: 15px;
+}
+
+.contact li{
+    font-size: 20px !important;
+}
+
+/* BRANDS */
+
+.brands{
+    margin-top:70px
+}
+
+.brands img{
+    width:10%;
+}
+
+.copyright p{
+    color: white;
+    font-size:12px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+  
+ 
+
+  
+  
+
